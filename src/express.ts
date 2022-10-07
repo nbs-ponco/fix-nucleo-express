@@ -1,7 +1,7 @@
 import express, { RequestHandler } from "express";
 import { UNKNOWN_IP } from "./constants";
 import { v4 as uuidv4 } from "uuid";
-import { ServerConfiguration } from "@nucleo-nodejs/server";
+import { ServerConfiguration } from "@nbsdev/nucleo-server";
 
 export type AsyncHandlerFn = (
     req: express.Request,

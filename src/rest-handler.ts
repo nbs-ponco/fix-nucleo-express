@@ -1,5 +1,5 @@
 import express, { RequestHandler } from "express";
-import { getResponseBody, Response } from "@nucleo-nodejs/server";
+import { getResponseBody, Response } from "@nbsdev/nucleo-server";
 
 export type RESTHandlerFn = (req: express.Request) => Promise<Response | true>;
 

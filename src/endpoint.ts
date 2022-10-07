@@ -1,4 +1,4 @@
-import { HttpMethod } from "@nucleo-nodejs/server";
+import { HttpMethod } from "@nbsdev/nucleo-server";
 import { HandlerType } from "./handler";
 
 export interface EndpointMetadata {

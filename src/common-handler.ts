@@ -1,4 +1,4 @@
-import { since, toUnixEpoch } from "@nucleo-nodejs/epoch";
+import { since, toUnixEpoch } from "@nbsdev/nucleo-epoch";
 import express, { NextFunction, RequestHandler } from "express";
 import {
     ERROR_INTERNAL,
@@ -7,8 +7,8 @@ import {
     Response,
     ErrorResponse,
     getResponseBody,
-} from "@nucleo-nodejs/server";
-import { getLogger, Logger } from "@nucleo-nodejs/logger";
+} from "@nbsdev/nucleo-server";
+import { getLogger, Logger } from "@nbsdev/nucleo-logger";
 import { captureClientIP, captureRequestID } from "./express";
 import { UNKNOWN_IP } from "./constants";
 import { wrapRESTHandler } from "./rest-handler";

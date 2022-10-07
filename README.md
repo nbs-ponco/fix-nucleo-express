@@ -1,4 +1,4 @@
-# @nucleo-nodejs/server-express
+# @nbsdev/nucleo-server-express
 
 Express.js server implementation. Written in TypeScript. 
 

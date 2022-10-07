@@ -1,6 +1,6 @@
 import "reflect-metadata";
 
-import { getLogger, Logger } from "@nucleo-nodejs/logger";
+import { getLogger, Logger } from "@nbsdev/nucleo-logger";
 import express from "express";
 import { ENDPOINTS_KEY } from "./constants";
 import { EndpointMetadata } from "./endpoint";
