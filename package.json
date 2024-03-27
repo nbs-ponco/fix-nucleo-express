@@ -40,7 +40,7 @@
     "@nbsdev/nucleo-epoch": "^0.3.0",
     "@nbsdev/nucleo-logger": "^0.1.0",
     "@nbsdev/nucleo-server": "^0.1.0",
-    "express": "^4.17.1",
+    "express": "^4.19.2",
     "uuid": "^8.3.2"
   },
   "peerDependencies": {
